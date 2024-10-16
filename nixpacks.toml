@@ -2,6 +2,6 @@
 cmds = ['railway run']
 
 [start]
-runImage = 'hectorqin/reader'
+runImage = 'hectorqin/reader:openj9-latest'
 onlyIncludeFiles = ['Dockerfile']
 cmd = '/sbin/tini --'
